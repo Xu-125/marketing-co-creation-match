@@ -1,4 +1,8 @@
-# 我能为你做什么
+# 我能为你做什么 · What Can We Do for You?
+
+**English:** An Agent Skill for finding a practical collaboration starting point by matching your resources with a partner's needs.
+
+[中文说明](#你会拿到什么) · [English guide](#english-guide)
 
 给做产品营销、PR、品牌和客户合作的人用的 Skill。任何支持读取 Skill 指令的 Agent 都可以用，只要它能通过 CLI 或检索工具读取你的背景。你说一个要对接的对象，它帮你查背景、找需求，再想清楚可以一起做什么。
 
@@ -63,3 +67,75 @@
 当前为首版：已做文件结构、元数据、引用路径和公开内容检查。尚未完成独立会话中的触发测试与有/无 Skill 对照测试，不承诺安装后在所有客户端都能自动调用工具。
 
 拿下一位要对接的人试一次：看看它有没有找到你漏掉的背景，推荐是否贴合对方，玩法是否值得继续聊。反馈可以提 Issue，请使用脱敏或虚构输入。
+
+---
+
+## English guide
+
+### What Can We Do for You?
+
+An Agent Skill for product marketing, PR, brand, and customer-partnership work. Name the person or customer you want to work with, and it helps research both sides, identify a useful starting point, and suggest something worth doing together.
+
+It is for the moment when you have read the partner's interviews and your own product materials but still do not know where to begin. It considers what the partner is working on alongside your resources, existing cooperation, and verified product capabilities.
+
+### What you get
+
+- **A collaboration starting point:** what to help the partner with first, and why.
+- **A co-creation direction:** who participates, how it works, what the partner gains, and why an audience would care.
+- **Conditions to confirm:** only the missing information that could change the direction; guesses are not presented as facts.
+
+For an ongoing partnership, the Skill focuses on current progress and blockers. For a customer with limited documentation, it uses the company, role, and available conversation excerpts to suggest a direction that still needs validation. It does not require a needs form or produce an interview questionnaire by default.
+
+### A fictional example
+
+> I work in product marketing and can coordinate content production. The marketing lead at a manufacturing company says, “Our new product has plenty of technical strengths, but our channel partners still cannot explain them clearly.” What can we help with?
+
+**Suggested direction — Make one selling point clear**
+
+Start with one difficult-to-explain feature and create a one-page explanation plus a demonstration scenario. You coordinate technical experts and channel colleagues; the product helps organize technical materials and draft the explanation; the content team produces the demonstration. Show the technical difference in a concrete use case so channel partners can explain it and customers can understand it.
+
+This is an illustration, not a completed partnership or a verified product test. See [more fictional examples](marketing-co-creation-match/references/examples.md#english-examples).
+
+### What background it checks
+
+**Your side:** your role, goals, resources you can coordinate, authorized project files and notes, internal discussions, proposal materials, partnership progress, and relevant product capabilities.
+
+**The partner's side:** current role, recent work, and public statements. For customers, it also considers the company, job responsibilities, and existing follow-up records.
+
+Researching your background is a core step—not just reading a product feature list. Sources may include local files accessible through CLI, personal notes, or authorized chat, document, email, and customer-record searches. The Skill is not tied to a platform, model, or proprietary tool and never grants access beyond your existing permissions.
+
+### Install and try
+
+This is a file-based Skill, with no additional software package or API key supplied by the Skill itself.
+
+1. Download or clone this repository.
+2. Import the entire `marketing-co-creation-match/` folder into a tool that supports Agent Skills, following that tool's installation procedure. Keep `SKILL.md` and `references/` in their relative locations.
+3. Check that the agent can access your background through authorized CLI or search tools and can research the partner. Try one real request.
+
+You can also ask your agent to install `marketing-co-creation-match/` from this repository. Installation entry points vary by client.
+
+```text
+I want to work with [name / company and role]. What can we do for them?
+```
+
+If you have a customer quote or project material, include it:
+
+```text
+The partner is [company and role], and they said [exact quote].
+Use our background to suggest a collaboration starting point and a co-creation direction.
+```
+
+### Requirements and privacy
+
+- **Agent:** must read Skill instructions and use available CLI or search tools. No particular product, model, enterprise connector, or tool name is required.
+- **Your background:** may come from local projects, notes, knowledge bases, or authorized business materials. Without access, the agent must limit its advice to supplied material and must not claim to have researched inaccessible sources.
+- **Partner information:** obtain it through available public search, CLI, or supplied materials. Mark missing facts rather than filling them in with assumptions.
+- **Privacy:** never commit internal chats, customer data, quotations, pricing, or credentials to this public repository. It contains generic instructions and fictional examples only.
+
+### Files and validation status
+
+`README.md` introduces the Skill. [`marketing-co-creation-match/SKILL.md`](marketing-co-creation-match/SKILL.md#english-instructions) contains execution rules. `references/examples.md` illustrates the output style. The Skill folder has no scripts and does not automatically publish content, contact partners, or make payments.
+
+This is the first version. File structure, metadata, reference paths, and public-content checks have been performed. Independent-session trigger tests and with/without-Skill comparison tests have not yet been completed. Automatic tool invocation across all clients is not guaranteed.
+
+Try it with the next person you want to approach. Check whether it finds background you missed, whether the recommendation fits the partner, and whether the proposed format is worth discussing. Issues are welcome; use anonymized or fictional inputs.

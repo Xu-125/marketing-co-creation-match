@@ -57,3 +57,67 @@
 - “我们已和他合作。”内部方向认可不能改写成合作事实。
 - “产品全流程赋能，形成传播闭环。”改成谁做什么、会得到什么。
 - “第一步、第二步……”在提案阶段铺十项执行细节。先交代方向，落地细节等用户要求时再写。
+
+---
+
+## English examples
+
+These examples illustrate the style of reasoning and output, not completed partnerships or verified product tests. Research the background and capabilities again for real use. Do not copy a fictional format onto an unrelated partner.
+
+### Example 1: A professional changing roles
+
+**Input**
+
+I want to approach someone who has moved from professional athletics to university teaching. What can we do for them?
+
+**Supplied background — fictional**
+
+The user works in product marketing and has content-production support. The product's ability to organize interview notes into document drafts has been confirmed for this example. In supplied interview material, the partner says they want students to try things and learn, not focus only on athletic results. There is no record of agreement to collaborate.
+
+**Suggested output**
+
+**What we can help with**
+Create content around their teaching experience to answer common student questions and leave useful materials for after class.
+
+**Why start here**
+Their interest is how students learn. Concrete classroom questions are a better starting point than a generic AI talk.
+
+**What to do together — How a champion teaches beginners**
+
+- **What it is:** answer three common student questions and turn the teaching experience into three after-class recap cards.
+- **How it works:** the teacher answers and reviews the professional content; you organize and present it; the product structures interview notes into card drafts. Viewers can submit questions from their own sports-learning experience.
+- **Why people would share it:** move from “how champions train” to “how ordinary people learn,” giving expert experience a clear practical audience.
+
+Confirm the teacher's current teaching priorities and willingness to participate before adopting the format.
+
+### Example 2: A customer has said only one sentence
+
+**Input**
+
+I work in product marketing, and our team can coordinate content production. The marketing lead at a manufacturing company says, “Our new product has plenty of technical strengths, but channel partners still cannot explain them clearly.” What can we help with?
+
+**Supplied background — fictional**
+
+The user can coordinate technical experts and channel colleagues. The product supports technical-material organization and copy drafts. Internal follow-up records contain no further needs. The proposal must remain a direction to validate.
+
+**Suggested output**
+
+**What we can help with — to validate**
+Turn one hard-to-explain technical selling point into content channel partners can use in a demonstration.
+
+**Why start here**
+The exact quote points to technical communication. There is not enough evidence to recommend a large launch event; first test whether explaining one feature helps.
+
+**What to do together — Make one selling point clear**
+
+- **What it is:** select one difficult feature from the new product materials and produce a one-page explanation plus a demonstration scenario.
+- **How it works:** you coordinate technical review and a channel practice session; the product organizes technical materials and drafts the explanation; the content team makes the demonstration.
+- **Why people would share it:** explain the product difference through a real use scenario so customers see what the technology means for their own work.
+
+### Common mistakes
+
+- “They are a teacher, so they need slides.” A role is not evidence of a task.
+- “They must be anxious and need efficiency.” Remove unsupported psychological assumptions.
+- “We already work with them.” Internal support for a direction is not evidence of a partnership.
+- “The product empowers the whole process and closes the loop.” State who does what and what they receive instead.
+- Listing ten execution steps at the proposal stage. Explain the direction first; add implementation details when requested.
